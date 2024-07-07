@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.slide-container {
+    margin: 0 30px;
+    overflow: hidden;
+  }
+  .card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    height: 350px;
+    border: 1px solid rgb(185, 184, 185);
+    box-shadow: 2px 3px 5px 3px darkgrey;
+  }
+  .card .image-box {
+    height: 210px;
+  }
+  .card .image-box img {
+    width: 100%;
+    height: 100%;
+    /* border-radius: 8px 8px 0 0; */
+    border-radius: 35%;
+  }
+  .card .profile-details {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    padding: 15px;
+  }
+  .card .profile-details img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  .profile-details .name {
+    font-size: 21px;
+    font-weight: 600;
+}
+  .profile-details .job {
+    font-size: 13px;
+    font-weight: 500;
+    color: #4d4d4d;
+  }
+  
+  .swiper-navBtn {
+    color: #000;
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    border-radius: 50%;
+  }
+  .swiper-navBtn::before,
+  .swiper-navBtn::after {
+    font-size: 18px;
+  }
+  
+  .swiper-pagination-bullet {
+    background-color: #000;
+  }
+  
+  .director .col-md-3 .card .img-box{
+    height: 251px;
+    
+  }
+  .card .img-box img{
+    height: 249px;
+    width: 100%;
+  }
+  @media screen and (max-width: 768px) {
+    .swiper-navBtn {
+      /* display: none; */
+    }
+  }
+  
