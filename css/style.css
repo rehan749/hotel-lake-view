@@ -2450,6 +2450,9 @@ footer .credits {
 .navbar-nav {
     gap: 30px;
 }
+.section-footer .w-title-a img{
+  height: 50px !important;
+}
 }
 
 .section-property .box {
